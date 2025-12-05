@@ -7,7 +7,7 @@ import Course from "@pages/Course";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/openerd">
       <Routes>
         <Route path="/" element={<Courses />} />
         <Route path="/courses" element={<Courses />} />
