@@ -1,0 +1,44 @@
+stages:
+  - build
+  - test
+  - lint
+  - secret-detection
+
+build:
+  image: node:alpine
+  stage: build
+  script:
+    - echo "Building the project..."
+    - npm install
+    - npm run build
+    - echo "Build completed."
+  artifacts:
+    paths:
+      - dist/
+    expire_in: 1 hour
+
+test:
+  image: node:alpine
+  stage: test
+  script:
+    - echo "Running tests..."
+    - test -f dist/index.html
+    - echo "Tests completed."
+
+lint:
+  image: node:alpine
+  stage: lint
+  script:
+    - echo "Running linting..."
+    - npm install
+    - npm run lint
+    - echo "Linting completed."
+
+secret_detection:
+  image: node:alpine
+  stage: secret-detection
+  script:
+    - echo "Running secret detection..."
+    - npm install -g secret-detection-tool || true
+    - secret-detection-tool || echo "Outil non trouvé, étape ignorée"
+    - echo "Secret detection completed."

@@ -1,0 +1,373 @@
+{
+  "1": {
+    "name": "Suite bureautique",
+    "content": "<p>Une suite bureautique regroupe des logiciels permettant de créer, modifier et partager des documents (texte, tableur, présentation, etc.).<br/><br/><strong>Monopole d'un géant :</strong> Microsoft Office domine largement ce secteur, notamment avec Word, Excel et PowerPoint.<br/><br/><strong>Limites :</strong> Solutions propriétaires, coût élevé, dépendance à un acteur unique, formats fermés.<br/><br/><strong>Alternatives open source :</strong><ul><li><b>LibreOffice</b> : Suite complète, compatible avec les formats MS Office, gratuite et communautaire.</li><li><b>OnlyOffice</b> : Interface moderne, collaboration en ligne, formats ouverts.</li><li><b>Collabora Online</b> : Version cloud de LibreOffice, adaptée au travail collaboratif.</li></ul><br/>Découvrir et utiliser ces alternatives permet de reprendre le contrôle sur ses données et de soutenir l'écosystème libre.",
+    "quiz": [
+      {
+        "question": "Quel logiciel est le plus souvent associé au monopole des suites bureautiques ?",
+        "options": [
+          "LibreOffice",
+          "OnlyOffice",
+          "Microsoft Office",
+          "Collabora Online"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Quel est un avantage principal d'une suite bureautique open source ?",
+        "options": [
+          "Elle est toujours payante",
+          "Elle permet de garder le contrôle sur ses données",
+          "Elle n'est pas compatible avec les formats MS Office",
+          "Elle nécessite une connexion Internet permanente"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Laquelle de ces suites est une alternative open source à Microsoft Office ?",
+        "options": [
+          "Adobe Photoshop",
+          "LibreOffice",
+          "Google Docs",
+          "Microsoft Excel"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "2": {
+    "name": "Navigateur web",
+    "content": "<p>Un navigateur web permet d'accéder à Internet et d'afficher des pages web.<br/><br/><strong>Monopole d'un géant :</strong> Google Chrome domine le marché mondial des navigateurs.<br/><br/><strong>Limites :</strong> Collecte de données, dépendance à Google, manque de transparence.<br/><br/><strong>Alternatives open source :</strong><ul><li><b>Mozilla Firefox</b> : Respect de la vie privée, personnalisable, multiplateforme.</li><li><b>Brave</b> : Basé sur Chromium, bloqueur de pub intégré, respect de la vie privée.</li><li><b>GNOME Web (Epiphany)</b> : Léger, intégré à l'environnement GNOME.</li></ul>",
+    "quiz": [
+      {
+        "question": "Quel navigateur est le plus utilisé dans le monde ?",
+        "options": ["Mozilla Firefox", "Google Chrome", "Brave", "Safari"],
+        "answer": 2
+      },
+      {
+        "question": "Quel navigateur open source est reconnu pour son respect de la vie privée ?",
+        "options": [
+          "Google Chrome",
+          "Mozilla Firefox",
+          "Internet Explorer",
+          "Opera"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Lequel de ces navigateurs n'est pas open source ?",
+        "options": ["Mozilla Firefox", "Brave", "Google Chrome", "GNOME Web"],
+        "answer": 3
+      }
+    ]
+  },
+  "3": {
+    "name": "Système d'exploitation",
+    "content": "<p>Un système d'exploitation (OS) gère le matériel et les logiciels d'un ordinateur.<br/><br/><strong>Monopole d'un géant :</strong> Microsoft Windows est l'OS le plus répandu sur les PC.<br/><br/><strong>Limites :</strong> Propriétaire, coût de licence, collecte de données, dépendance à Microsoft.<br/><br/><strong>Alternatives open source :</strong><ul><li><b>Ubuntu</b> : Distribution Linux conviviale, supportée par une grande communauté.</li><li><b>Debian</b> : Stable, robuste, très utilisée sur les serveurs.</li><li><b>Fedora</b> : Innovant, technologies récentes, soutenu par Red Hat.</li></ul>",
+    "quiz": [
+      {
+        "question": "Quel est le système d'exploitation propriétaire le plus utilisé sur PC ?",
+        "options": ["Ubuntu", "macOS", "Windows", "Fedora"],
+        "answer": 3
+      },
+      {
+        "question": "Quelle distribution Linux est réputée pour sa stabilité ?",
+        "options": ["Debian", "Fedora", "Windows", "macOS"],
+        "answer": 1
+      },
+      {
+        "question": "Quel est un avantage d'un OS open source ?",
+        "options": [
+          "Code fermé",
+          "Licence payante",
+          "Communauté active",
+          "Dépendance à un éditeur unique"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  "4": {
+    "name": "Messagerie électronique",
+    "content": "<p>La messagerie électronique permet d'envoyer et de recevoir des courriels.<br/><br/><strong>Monopole d'un géant :</strong> Gmail (Google) est le service le plus utilisé.<br/><br/><strong>Limites :</strong> Analyse des contenus, publicité ciblée, centralisation des données.<br/><br/><strong>Alternatives open source :</strong><ul><li><b>ProtonMail</b> : Chiffrement de bout en bout, respect de la vie privée.</li><li><b>Tutanota</b> : Chiffrement, open source, sans publicité.</li><li><b>Mailu</b> : Solution auto-hébergée, contrôle total sur ses données.</li></ul>",
+    "quiz": [
+      {
+        "question": "Quel service de messagerie domine le marché mondial ?",
+        "options": ["Outlook", "Yahoo Mail", "Gmail", "ProtonMail"],
+        "answer": 3
+      },
+      {
+        "question": "Quel service open source propose un chiffrement de bout en bout ?",
+        "options": ["Gmail", "ProtonMail", "Yahoo Mail", "Outlook"],
+        "answer": 2
+      },
+      {
+        "question": "Quel est un avantage d'une solution auto-hébergée ?",
+        "options": [
+          "Dépendance à Google",
+          "Contrôle total sur ses données",
+          "Publicité ciblée",
+          "Aucune personnalisation"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "5": {
+    "name": "Stockage en ligne (cloud)",
+    "content": "<p>Le stockage en ligne permet de sauvegarder et partager des fichiers sur Internet.<br/><br/><strong>Monopole d'un géant :</strong> Google Drive domine le secteur du cloud personnel.<br/><br/><strong>Limites :</strong> Confidentialité, dépendance à Google, formats propriétaires.<br/><br/><strong>Alternatives open source :</strong><ul><li><b>Nextcloud</b> : Plateforme complète, synchronisation, partage, auto-hébergement.</li><li><b>ownCloud</b> : Similaire à Nextcloud, open source, extensible.</li><li><b>Seafile</b> : Performant, gestion fine des droits d'accès.</li></ul>",
+    "quiz": [
+      {
+        "question": "Quel service domine le stockage cloud personnel ?",
+        "options": ["Dropbox", "Nextcloud", "Google Drive", "ownCloud"],
+        "answer": 3
+      },
+      {
+        "question": "Quel est un avantage de Nextcloud ?",
+        "options": [
+          "Propriétaire",
+          "Auto-hébergement",
+          "Dépendance à Google",
+          "Publicité obligatoire"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Lequel n'est pas une alternative open source à Google Drive ?",
+        "options": ["Nextcloud", "ownCloud", "Seafile", "Dropbox"],
+        "answer": 4
+      }
+    ]
+  },
+  "6": {
+    "name": "Moteur de recherche",
+    "content": "<p>Un moteur de recherche permet de trouver des informations sur Internet.<br/><br/><strong>Monopole d'un géant :</strong> Google Search détient la quasi-totalité du marché.<br/><br/><strong>Limites :</strong> Collecte de données, personnalisation des résultats, publicité.<br/><br/><strong>Alternatives open source :</strong><ul><li><b>SearxNG</b> : Métamoteur open source, respect de la vie privée.</li><li><b>YaCy</b> : Moteur décentralisé, auto-hébergé.</li><li><b>Whoogle</b> : Interface open source pour Google, sans tracking.</li></ul>",
+    "quiz": [
+      {
+        "question": "Quel moteur de recherche détient le monopole mondial ?",
+        "options": ["Bing", "DuckDuckGo", "Google", "Yahoo!"],
+        "answer": 3
+      },
+      {
+        "question": "Quel métamoteur open source respecte la vie privée ?",
+        "options": ["SearxNG", "Google", "Yahoo!", "Bing"],
+        "answer": 1
+      },
+      {
+        "question": "Quel moteur est décentralisé et auto-hébergé ?",
+        "options": ["Google", "YaCy", "SearxNG", "Whoogle"],
+        "answer": 2
+      }
+    ]
+  },
+  "7": {
+    "name": "Réseaux sociaux",
+    "content": "<p>Les réseaux sociaux permettent de partager des contenus et d'interagir en ligne.<br/><br/><strong>Monopole d'un géant :</strong> Facebook (Meta) domine le secteur.<br/><br/><strong>Limites :</strong> Collecte massive de données, algorithmes opaques, dépendance à une plateforme unique.<br/><br/><strong>Alternatives open source :</strong><ul><li><b>Mastodon</b> : Réseau social décentralisé, respect de la vie privée.</li><li><b>Friendica</b> : Interopérabilité avec d'autres réseaux, décentralisé.</li><li><b>Pixelfed</b> : Partage d'images, alternative à Instagram, décentralisé.</li></ul>",
+    "quiz": [
+      {
+        "question": "Quel réseau social domine le marché mondial ?",
+        "options": ["Mastodon", "Facebook", "Pixelfed", "Friendica"],
+        "answer": 2
+      },
+      {
+        "question": "Quel réseau social open source est décentralisé ?",
+        "options": ["Facebook", "Mastodon", "Instagram", "Twitter"],
+        "answer": 2
+      },
+      {
+        "question": "Lequel est une alternative open source à Instagram ?",
+        "options": ["Pixelfed", "Mastodon", "Facebook", "Friendica"],
+        "answer": 1
+      }
+    ]
+  },
+  "8": {
+    "name": "Gestion de mots de passe",
+    "content": "<p>Un gestionnaire de mots de passe permet de stocker et générer des mots de passe sécurisés.<br/><br/><strong>Monopole d'un géant :</strong> LastPass est l'un des plus connus, mais propriétaire.<br/><br/><strong>Limites :</strong> Risque de fuite, code fermé, abonnement payant.<br/><br/><strong>Alternatives open source :</strong><ul><li><b>Bitwarden</b> : Open source, synchronisation multi-appareils, hébergement possible.</li><li><b>KeepassXC</b> : Stockage local, open source, multiplateforme.</li><li><b>Passbolt</b> : Gestion collaborative, open source, auto-hébergé.</li></ul>",
+    "quiz": [
+      {
+        "question": "Quel gestionnaire de mots de passe est propriétaire et populaire ?",
+        "options": ["Bitwarden", "KeepassXC", "LastPass", "Passbolt"],
+        "answer": 3
+      },
+      {
+        "question": "Quel gestionnaire open source permet la synchronisation multi-appareils ?",
+        "options": ["LastPass", "Bitwarden", "KeepassXC", "Passbolt"],
+        "answer": 2
+      },
+      {
+        "question": "Lequel privilégie le stockage local et la simplicité ?",
+        "options": ["Bitwarden", "KeepassXC", "LastPass", "Passbolt"],
+        "answer": 2
+      }
+    ]
+  },
+  "9": {
+    "name": "Cartographie et GPS",
+    "content": "<p>Les services de cartographie permettent de se repérer et de planifier des itinéraires.<br/><br/><strong>Monopole d'un géant :</strong> Google Maps domine largement ce secteur.<br/><br/><strong>Limites :</strong> Collecte de données, dépendance à Google, accès payant à l'API.<br/><br/><strong>Alternatives open source :</strong><ul><li><b>OpenStreetMap</b> : Projet collaboratif, données libres, utilisé par de nombreux services.</li><li><b>OsmAnd</b> : Application mobile basée sur OpenStreetMap, navigation hors ligne.</li><li><b>Qwant Maps</b> : Basé sur OpenStreetMap, respect de la vie privée.</li></ul>",
+    "quiz": [
+      {
+        "question": "Quel service domine la cartographie en ligne ?",
+        "options": ["OpenStreetMap", "Qwant Maps", "Google Maps", "OsmAnd"],
+        "answer": 3
+      },
+      {
+        "question": "Quel projet open source fournit des données cartographiques libres ?",
+        "options": ["Google Maps", "OpenStreetMap", "Qwant Maps", "OsmAnd"],
+        "answer": 2
+      },
+      {
+        "question": "Quelle application permet la navigation hors ligne ?",
+        "options": ["OpenStreetMap", "OsmAnd", "Google Maps", "Qwant Maps"],
+        "answer": 2
+      }
+    ]
+  },
+  "10": {
+    "name": "Vidéoconférence",
+    "content": "<p>La vidéoconférence permet de communiquer à distance en audio et vidéo.<br/><br/><strong>Monopole d'un géant :</strong> Zoom est devenu la référence mondiale.<br/><br/><strong>Limites :</strong> Propriétaire, collecte de données, dépendance à un service centralisé.<br/><br/><strong>Alternatives open source :</strong><ul><li><b>Jitsi Meet</b> : Open source, sans inscription, auto-hébergeable.</li><li><b>BigBlueButton</b> : Spécialisé pour l'enseignement, open source.</li><li><b>Nextcloud Talk</b> : Intégré à Nextcloud, open source, auto-hébergeable.</li></ul>",
+    "quiz": [
+      {
+        "question": "Quel service domine la vidéoconférence ?",
+        "options": ["Jitsi Meet", "BigBlueButton", "Zoom", "Nextcloud Talk"],
+        "answer": 3
+      },
+      {
+        "question": "Quel outil open source est spécialisé pour l'enseignement ?",
+        "options": ["Jitsi Meet", "BigBlueButton", "Zoom", "Nextcloud Talk"],
+        "answer": 2
+      },
+      {
+        "question": "Lequel de ces outils est intégré à une solution de cloud open source ?",
+        "options": ["Jitsi Meet", "BigBlueButton", "Zoom", "Nextcloud Talk"],
+        "answer": 4
+      }
+    ]
+  },
+  "11": {
+    "name": "Lecture multimédia",
+    "content": "<p>Les lecteurs multimédias permettent de lire des fichiers audio et vidéo.<br/><br/><strong>Monopole d'un géant :</strong> VLC est le lecteur open source le plus populaire, mais Windows Media Player reste très utilisé sur Windows.<br/><br/><strong>Limites :</strong> Formats propriétaires, fonctionnalités limitées sur certains lecteurs.<br/><br/><strong>Alternatives open source :</strong><ul><li><b>VLC</b> : Multiplateforme, supporte de nombreux formats, open source.</li><li><b>MPV</b> : Léger, personnalisable, open source.</li><li><b>Audacious</b> : Spécialisé audio, open source, simple et efficace.</li></ul>",
+    "quiz": [
+      {
+        "question": "Quel lecteur multimédia open source est le plus populaire ?",
+        "options": ["VLC", "MPV", "Windows Media Player", "Audacious"],
+        "answer": 1
+      },
+      {
+        "question": "Quel lecteur est spécialisé dans l'audio ?",
+        "options": ["VLC", "MPV", "Audacious", "Windows Media Player"],
+        "answer": 3
+      },
+      {
+        "question": "Lequel de ces lecteurs n'est pas open source ?",
+        "options": ["VLC", "MPV", "Audacious", "Windows Media Player"],
+        "answer": 4
+      }
+    ]
+  },
+  "12": {
+    "name": "Édition d’images",
+    "content": "<p>L’édition d’images permet de retoucher, modifier et créer des visuels numériques.<br/><br/><strong>Monopole d’un géant :</strong> Adobe Photoshop est la référence mondiale.<br/><br/><strong>Limites :</strong> Abonnement coûteux, code propriétaire, dépendance à Adobe.<br/><br/><strong>Alternatives open source :</strong><ul><li><b>GIMP</b> : Puissant, multiplateforme, très complet.</li><li><b>Krita</b> : Spécialisé dans le dessin et la peinture numérique.</li><li><b>Darktable</b> : Développement photo, gestion avancée des images RAW.</li></ul>",
+    "quiz": [
+      {
+        "question": "Quel logiciel domine l’édition d’images professionnelle ?",
+        "options": ["GIMP", "Krita", "Adobe Photoshop", "Darktable"],
+        "answer": 3
+      },
+      {
+        "question": "Quel logiciel open source est spécialisé dans la peinture numérique ?",
+        "options": ["GIMP", "Krita", "Adobe Photoshop", "Darktable"],
+        "answer": 2
+      },
+      {
+        "question": "Lequel est une alternative open source pour le développement photo RAW ?",
+        "options": ["GIMP", "Krita", "Darktable", "Adobe Photoshop"],
+        "answer": 3
+      }
+    ]
+  },
+  "13": {
+    "name": "Prise de notes",
+    "content": "<p>Les applications de prise de notes permettent d’organiser ses idées, listes et documents.<br/><br/><strong>Monopole d’un géant :</strong> Evernote et Microsoft OneNote sont très répandus.<br/><br/><strong>Limites :</strong> Synchronisation propriétaire, dépendance à un service, confidentialité.<br/><br/><strong>Alternatives open source :</strong><ul><li><b>Joplin</b> : Notes synchronisées, chiffrement, multiplateforme.</li><li><b>Standard Notes</b> : Sécurité, simplicité, open source.</li><li><b>Laverna</b> : Interface web, respect de la vie privée.</li></ul>",
+    "quiz": [
+      {
+        "question": "Quel service est un leader de la prise de notes ?",
+        "options": ["Joplin", "Standard Notes", "Evernote", "Laverna"],
+        "answer": 3
+      },
+      {
+        "question": "Quel logiciel open source propose le chiffrement natif des notes ?",
+        "options": ["Evernote", "Joplin", "Microsoft OneNote", "Google Keep"],
+        "answer": 2
+      },
+      {
+        "question": "Lequel est une alternative open source orientée simplicité et sécurité ?",
+        "options": ["Standard Notes", "Evernote", "Joplin", "Laverna"],
+        "answer": 1
+      }
+    ]
+  },
+  "14": {
+    "name": "Gestion de projets",
+    "content": "<p>La gestion de projets permet de planifier, suivre et organiser des tâches en équipe.<br/><br/><strong>Monopole d’un géant :</strong> Trello (Atlassian) et Asana sont très utilisés.<br/><br/><strong>Limites :</strong> Hébergement centralisé, fonctionnalités payantes, dépendance à un éditeur.<br/><br/><strong>Alternatives open source :</strong><ul><li><b>Taiga</b> : Gestion agile, tableaux Kanban, open source.</li><li><b>OpenProject</b> : Gestion avancée, Gantt, collaboration.</li><li><b>Wekan</b> : Tableaux Kanban simples, auto-hébergeable.</li></ul>",
+    "quiz": [
+      {
+        "question": "Quel outil est un leader de la gestion de projets en ligne ?",
+        "options": ["Taiga", "Trello", "OpenProject", "Wekan"],
+        "answer": 2
+      },
+      {
+        "question": "Quel outil open source propose la gestion agile et Kanban ?",
+        "options": ["Trello", "Taiga", "Asana", "OpenProject"],
+        "answer": 2
+      },
+      {
+        "question": "Lequel est une alternative open source pour la gestion de projets avec diagramme de Gantt ?",
+        "options": ["Wekan", "OpenProject", "Trello", "Taiga"],
+        "answer": 2
+      }
+    ]
+  },
+  "15": {
+    "name": "Messagerie instantanée",
+    "content": "<p>La messagerie instantanée permet de discuter en temps réel, individuellement ou en groupe.<br/><br/><strong>Monopole d’un géant :</strong> WhatsApp (Meta) domine le marché mondial.<br/><br/><strong>Limites :</strong> Collecte de données, centralisation, dépendance à Meta.<br/><br/><strong>Alternatives open source :</strong><ul><li><b>Signal</b> : Chiffrement de bout en bout, open source.</li><li><b>Element (Matrix)</b> : Décentralisé, interopérable, open source.</li><li><b>Rocket.Chat</b> : Pour les équipes, auto-hébergeable, open source.</li></ul>",
+    "quiz": [
+      {
+        "question": "Quel service domine la messagerie instantanée mondiale ?",
+        "options": ["Signal", "WhatsApp", "Element", "Rocket.Chat"],
+        "answer": 2
+      },
+      {
+        "question": "Quel logiciel open source est basé sur le protocole Matrix ?",
+        "options": ["Signal", "WhatsApp", "Element", "Rocket.Chat"],
+        "answer": 3
+      },
+      {
+        "question": "Lequel est une alternative open source pour la messagerie d’équipe auto-hébergeable ?",
+        "options": ["Signal", "WhatsApp", "Element", "Rocket.Chat"],
+        "answer": 4
+      }
+    ]
+  },
+  "16": {
+    "name": "Hébergement de code",
+    "content": "<p>L’hébergement de code permet de collaborer sur des projets logiciels, versionner et partager du code.<br/><br/><strong>Monopole d’un géant :</strong> GitHub (Microsoft) est la plateforme la plus utilisée.<br/><br/><strong>Limites :</strong> Centralisation, dépendance à Microsoft, fonctionnalités avancées payantes.<br/><br/><strong>Alternatives open source :</strong><ul><li><b>GitLab CE</b> : Plateforme complète, CI/CD, open source.</li><li><b>Gitea</b> : Léger, auto-hébergeable, open source.</li><li><b>SourceHut</b> : Minimaliste, open source, orienté simplicité.</li></ul>",
+    "quiz": [
+      {
+        "question": "Quelle plateforme domine l’hébergement de code open source ?",
+        "options": ["GitLab CE", "Gitea", "GitHub", "SourceHut"],
+        "answer": 3
+      },
+      {
+        "question": "Quel outil open source propose une solution complète avec CI/CD ?",
+        "options": ["GitHub", "GitLab CE", "Gitea", "SourceHut"],
+        "answer": 2
+      },
+      {
+        "question": "Lequel est une alternative open source légère et auto-hébergeable ?",
+        "options": ["GitLab CE", "Gitea", "GitHub", "SourceHut"],
+        "answer": 2
+      }
+    ]
+  }
+}

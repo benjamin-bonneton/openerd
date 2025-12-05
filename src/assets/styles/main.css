@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+  --color-primary: #05e370;
+  --color-secondary: #76e8ad;
+  --color-info: #187ff5;
+  --color-success: #02f242;
+  --color-warning: #edb611;
+  --color-danger: #eb4a31;
+}
+
+body,
+html,
+#root {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar */
+body::-webkit-scrollbar {
+  width: 10px;
+  background: #e6f9ef;
+}
+
+body::-webkit-scrollbar-track {
+  background: #e6f9ef;
+  border-radius: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    135deg,
+    var(--color-primary),
+    var(--color-secondary)
+  );
+  border-radius: 8px;
+  border: 2px solid #e6f9ef;
+  box-shadow: 0 2px 6px rgba(5, 227, 112, 0.15);
+}
+
+/* Firefox scrollbar styles */
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-primary) #e6f9ef;
+}
