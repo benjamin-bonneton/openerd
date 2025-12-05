@@ -4,6 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/openerd/",
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {

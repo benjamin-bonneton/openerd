@@ -1,69 +1,89 @@
-# React + TypeScript + Vite
+# Openerd
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Plateforme de gestion et visualisation de cours, développée avec React, TypeScript et Vite.
 
-Currently, two official plugins are available:
+## Fonctionnalités principales
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Affichage d'une liste de cours à partir d'un fichier JSON
+- Visualisation des détails d'un cours
+- Système de badges et de niveaux de sévérité
+- Navigation entre les pages (React Router)
+- Effets visuels (confettis)
+- Design moderne avec Tailwind CSS
 
-## Expanding the ESLint configuration
+## Structure du projet
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```
+src/
+	App.tsx                // Composant principal
+	main.tsx               // Point d'entrée
+	assets/                // Fichiers statiques (images, polices, json, styles)
+	components/            // Composants réutilisables
+		BadgesBar.tsx
+		Button.tsx
+		Divider.tsx
+		courses/
+			CourseCard.tsx
+			CoursesList.tsx
+	hooks/                 // Hooks personnalisés
+		courses.ts
+	pages/                 // Pages principales
+		Course.tsx
+		Courses.tsx
+	services/              // Services (API, etc.)
+	types/                 // Types TypeScript
+		Button.ts
+		course.ts
+		severities.ts
+	utils/                 // Fonctions utilitaires
+		confetti.ts
+		severities.ts
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Installation
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+1. **Cloner le dépôt**
+   ```bash
+   git clone <url-du-repo>
+   cd openerd
+   ```
+2. **Installer les dépendances**
+   ```bash
+   npm install
+   ```
+3. **Lancer le serveur de développement**
+   ```bash
+   npm run dev
+   ```
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Build & Production
+
+Pour générer la version de production :
+
+```bash
+npm run build
 ```
+
+Pour prévisualiser la build :
+
+```bash
+npm run preview
+```
+
+## Technologies utilisées
+
+- [React](https://react.dev/) 19
+- [TypeScript](https://www.typescriptlang.org/) 5
+- [Vite](https://vitejs.dev/) 7
+- [Tailwind CSS](https://tailwindcss.com/) 4
+- [Axios](https://axios-http.com/) pour les requêtes HTTP
+- [React Router DOM](https://reactrouter.com/) 7
+- [Canvas Confetti](https://www.npmjs.com/package/canvas-confetti)
+
+## Licence et Contribution
+
+Ce projet est sous licence MIT. Les contributions sont les bienvenues ! Pour proposer une amélioration, ouvrez une issue ou une pull request.
+
+## Auteur
+
+Benjamin — 2025
