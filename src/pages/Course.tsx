@@ -64,7 +64,7 @@ function Course() {
 
     if (alreadyCompleted) {
       localStorage.setItem("scrollToCourseId", id);
-      window.location.href = "/courses";
+      window.location.href = "/openerd/courses";
       return null;
     }
 
@@ -99,7 +99,7 @@ function Course() {
         setUserLevel(level);
         localStorage.setItem("scrollToCourseId", id);
         setTimeout(() => {
-          window.location.href = "/courses";
+          window.location.href = "/openerd/courses";
         }, 1200);
       }
       return null;
